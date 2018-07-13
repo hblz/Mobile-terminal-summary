@@ -35,10 +35,12 @@
 2、在MAC上打开Safari的开发菜单：顶部菜单栏“Safari”→偏好设置→高级→打开”在菜单栏中显示“开发”菜单（ 示意图 ）
 ![image](images/8.png)
 
-3、在iOS设备上的Safari浏览器中打开要调试的页面，然后切换到MAC的Safari，在顶部菜单栏选择“开发”→找到你的iOS设备名称→右边二级菜单选择需要调试的对应标签页，即可开始远程调试（ 示意图 ）
+3、在iOS设备上打开要调试的页面，然后切换到MAC的Safari，在顶部菜单栏选择“开发”→找到你的iOS设备名称→右边二级菜单选择需要调试的对应标签页，即可开始远程调试（ 示意图 ）
 ![image](images/9.png)
 
 4、如果没有iOS设备，也可以在Xcode中模拟一台，点击顶部“Xcode”→“Open Developer Tool”→“iOS Simulator”即可打开一个iOS设备的模拟器，并且模拟器里面Safari打开的页面，也是能通过上个步骤中MAC上的Safari调试。
+
+5、演示
 
 ## weinre
 过程稍微繁琐，但是这个方案能调试几乎所有平台的所有浏览器，只要能运行js的就行
@@ -62,6 +64,8 @@
 8、在PC或MAC上用浏览器打开 http://IP:8080/client/#anonymous的网页就可以看到移动端打开的网页的地址，选中它即可以对其进行调试 （ 示意图 ）
 ![image](images/11.png)
 
+9、演示
+
 ## spy-debugger(集成weinre)
 内部集成了weinre，简化了weinre繁琐的配置过程。通过代理的方式拦截所有html自动注入weinre所需的js代码。
 
@@ -77,6 +81,8 @@ Mac: sudo npm install spy-debugger -g
 
 5、 用手机浏览器访问你要调试的页面即可。（ 示意图 ）
 ![image](images/12.png)
+
+6、演示
 
 ## Eruda
 通过CDN使用：
@@ -97,3 +103,5 @@ npm install eruda --save
 （ 示意图 ）
 
 ![image](images/15.png)
+
+演示
