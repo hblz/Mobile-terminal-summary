@@ -44,9 +44,13 @@
 过程稍微繁琐，但是这个方案能调试几乎所有平台的所有浏览器，只要能运行js的就行
 
 1、 安装nodejs 
+
 2、 安装weinre到global，即在命令行中运行 npm -g install weinre （MAC可能需要在前面加上 sudo ）
+
 3、获取本机IP地址（PC：开始→运行→cmd，输入 ipconfig ，查看“IPv4地址”字段； MAC：在网络偏好设置内）
+
 4、 在命令行运行weinre： weinre --boundHost IP ，其中IP地址为上一步所获取的地址
+
 6、 在PC或MAC上用浏览器打开 http://IP:8080/client/#anonymous ，其中IP地址为第三步所获取的地址（ 示意图 ）
 ![image](images/10.png)
 
