@@ -8,7 +8,7 @@
 
 3、在页面顶部可以看到设备选择下拉菜单 Device 和 模拟网络环境的下拉菜单 Network
 
-## 调试Android APP里的webview
+## 调试Android上的网页
 1、开启当前Android设备的USB调试（ 示意图 ）
 ![image](images/1.jpg)
 
@@ -28,7 +28,7 @@
 7、此时将在桌面版Chrome上弹出一个新的标签页，即为调试界面；如果很久都没用响应，请翻墙后再试（一个免费的翻墙工具：[ ishadowx ](https://my.ishadowx.net/)）（ 示意图 ）
 ![image](images/6.jpg)
 
-## 调试iOS上的Safari
+## 调试iOS上的网页
 1、在iOS设备上打开允许调试：设置→Safari→高级→打开”web检查器“（ 示意图 ）
 ![image](images/7.png)
 
