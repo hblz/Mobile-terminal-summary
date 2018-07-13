@@ -8,7 +8,7 @@
 
 3、在页面顶部可以看到设备选择下拉菜单 Device 和 模拟网络环境的下拉菜单 Network
 
-## 调试Android上的网页
+## 调试Android上的网页（只能调试Android设备）
 1、开启当前Android设备的USB调试（ 示意图 ）
 ![image](images/1.jpg)
 
@@ -28,14 +28,14 @@
 7、此时将在桌面版Chrome上弹出一个新的标签页，即为调试界面；如果很久都没用响应，请翻墙后再试（一个免费的翻墙工具：[ ishadowx ](https://my.ishadowx.net/)）（ 示意图 ）
 ![image](images/6.jpg)
 
-## 调试iOS上的网页
+## 调试iOS上的网页（只能调试IOS设备）
 1、在iOS设备上打开允许调试：设置→Safari→高级→打开”web检查器“（ 示意图 ）
 ![image](images/7.png)
 
 2、在MAC上打开Safari的开发菜单：顶部菜单栏“Safari”→偏好设置→高级→打开”在菜单栏中显示“开发”菜单（ 示意图 ）
 ![image](images/8.png)
 
-3、在iOS设备上打开要调试的页面，然后切换到MAC的Safari，在顶部菜单栏选择“开发”→找到你的iOS设备名称→右边二级菜单选择需要调试的对应标签页，即可开始远程调试（ 示意图 ）
+3、用数据线连接MAC电脑，在iOS设备上打开要调试的页面，然后切换到MAC的Safari，在顶部菜单栏选择“开发”→找到你的iOS设备名称→右边二级菜单选择需要调试的对应标签页，即可开始远程调试（ 示意图 ）
 ![image](images/9.png)
 
 4、如果没有iOS设备，也可以在Xcode中模拟一台，点击顶部“Xcode”→“Open Developer Tool”→“iOS Simulator”即可打开一个iOS设备的模拟器，并且模拟器里面Safari打开的页面，也是能通过上个步骤中MAC上的Safari调试。
@@ -84,6 +84,7 @@ Mac: sudo npm install spy-debugger -g
 
 6、演示
 
+7、更多功能详见：https://github.com/wuchangming/spy-debugger
 ## Eruda
 通过CDN使用：
 ```js
